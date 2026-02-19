@@ -1,1 +1,29 @@
-/* Empty for now */
+.prose-style-selector-settings .prose-toggle-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.prose-style-selector-settings .prose-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.prose-style-selector-settings .prose-row label {
+    white-space: nowrap;
+    min-width: 90px;
+}
+
+.prose-style-selector-settings #prose_genre {
+    flex: 1;
+}
+
+.prose-style-selector-settings .prose-hint {
+    font-size: 0.8em;
+    opacity: 0.6;
+    font-style: italic;
+    margin-top: 4px;
+}
